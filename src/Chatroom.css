@@ -1,0 +1,46 @@
+.chat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.login-container {
+  text-align: center;
+}
+
+.chatroom-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 60vw;
+}
+
+.chatroom-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.messages-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+}
+
+.message-input-container {
+  display: flex;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.send-button {
+  padding: 10px;
+}
